@@ -105,3 +105,54 @@ body{
 .header .ect ul li ul li:hover{
     font-weight: bold;
 }
+.content{
+    width: 100%;
+    padding: 0 2%;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+.content .content-wrap{
+    max-width: 1200px;
+    margin: 71px auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 25px 0;
+    background-color: #fff;
+    border-radius: 7px;
+    border: #ccc;
+    box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.content .title{
+    text-align: center;
+    flex-basis: 100%;
+    font-size: 2em;
+}
+.content .title h3{
+    position: relative;
+}
+.content .title h3::after{
+    content: "";
+    width: 5%;
+    height: 2px;
+    background-color: #000;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.profile-wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.profile-content{
+    background-color: #fff;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    padding: 2px 3px 0;
+    box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
+}

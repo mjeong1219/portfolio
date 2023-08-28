@@ -54,3 +54,6 @@
     color: #fff;
     box-shadow: -85px 0 0 0 inset #3d3d3d, 85px 0 0 0 inset #3d3d3d;
 }
+.typed-cursor{
+    display: none;
+}
