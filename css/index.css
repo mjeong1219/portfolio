@@ -1,5 +1,22 @@
 @charset "utf-8";
 
+#fp-nav ul li .fp-tooltip{
+/* 툴팁 텍스트 */
+    background-color: #fff;
+    color: #000;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+#fp-nav ul li .fp-tooltip.on{
+/* 페이지 도착할 때 툴팁 텍스트 고정 */
+    width: auto;
+    opacity: 1;
+}
+#fp-nav ul li a span{
+    background-color: aqua;
+}
 #particles-js{
     position: absolute;
     width: 100%;

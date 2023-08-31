@@ -156,3 +156,46 @@ body{
     align-items: center;
     overflow: hidden;
 }
+.profile-pic{
+    flex-basis: 35%;
+    text-align: center;
+    padding: 2%;
+    box-sizing: border-box;
+}
+.profile-pic p{
+    margin-bottom: 0.5em;
+    letter-spacing: -1px;
+}
+.profile-desc{
+    flex-basis: 65%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+.profile-desc > div{
+    margin-bottom: 1.5em;
+}
+.profile-desc > div > h3{
+    margin-bottom: 1em;
+}
+.profile-desc > div p{
+    letter-spacing: -1px;
+}
+.profile-desc > div p span{
+    font-weight: bold;
+}
+.profile-desc .profile-skill .progress-area{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.profile-desc .profile-skill .progress-area .progress{
+    flex-basis: 48%;
+    margin-bottom: 1em;
+}
+.profile-desc .profile-skill .progress-area .progress p{
+    margin-bottom: 0.5em;
+}
+.profile-desc .profile-skill .progress-area .progressbar-text{
+    left: 94% !important; 
+    top: 39% !important;
+}
